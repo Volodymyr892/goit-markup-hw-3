@@ -3,7 +3,7 @@ body {
     color: #434455;
     background-color:#ffffff;
 }
-p, h1, h2,h3{
+p, h1, h2,h3,h4,h5,h6{
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -26,10 +26,10 @@ address{
     font-style: normal;
 }
 .container{
-    width: 1140px;
-    padding-left: 156px;
-    padding-right: 156px; 
-    margin: 0 auto;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto; 
 }
 .visually-hidden {
     position: absolute;
@@ -48,9 +48,17 @@ address{
 
 /*?--------------------------HEADER-----------------*/
 
-.header {}
-
-.header-nav {}
+.header {
+    border-bottom:1px solid #E7E9FC;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 
 .header-nav-logo {
     color:#4d5ae5;
@@ -60,13 +68,18 @@ address{
     line-height:1.17;
     letter-spacing:0.03em;
     text-transform:uppercase;
+    margin-right: 76px;
+
 }
 
 .header-logo-part{
     color:#2e2f42;
 }
 
-.header-menu-list {}
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+}
 
 .header-menu-item {}
 
@@ -76,6 +89,8 @@ address{
     font-weight:500;
     line-height:1.5;
     letter-spacing:0.02em;
+    padding: 24px 0 ;
+    display: block;
 }
 .heaader-menu-link:hover,
 .heaader-menu-link:focus {
@@ -85,9 +100,13 @@ address{
 
 .header-addres {
     font-style:normal;
+    margin-left: auto;
 }
 
-.header-addres-list {}
+.header-addres-list {
+    display: flex;
+    gap: 40px;
+}
 
 .header-addres-item {}
 
@@ -109,6 +128,13 @@ address{
 .hero {
     background-color: #2E2F42;
 }
+
+.hero-container{
+    background-color: #2E2F42;
+    padding: 188px 0;
+    text-align: center;
+}
+
 .hero-title {
     color: #FFF;
     text-align: center;
@@ -116,6 +142,9 @@ address{
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin: 0 auto 48px;
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -127,6 +156,13 @@ address{
     font-weight:500;
     line-height:1.5;
     letter-spacing:0.04em;
+    text-align: center;
+
+
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
 }
 .hero-btn:hover,
 .hero-btn:focus{
@@ -139,9 +175,19 @@ address{
 
 .secondary-title {}
 
-.features-list {}
+.features-list {
+    display: flex;
+    align-items: center;
+    gap:24px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: calc(100%-24px*3/4);
 
-.features-item {}
+}
+
+.features-item {
+    width: calc((100% - 24px * 3 ) / 4 );
+}
 
 .features-subtitle {
     color: #2E2F42;
@@ -149,6 +195,7 @@ address{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding-bottom: 8px;
 }
 
 .features-item-text {
@@ -172,15 +219,25 @@ address{
     line-height:1.11;
     letter-spacing:0.02em;
     text-transform:capitalize;
+    padding-top: 120px;
+    margin-bottom: 72px;
 }
 
-.taste-list {}
+.taste-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 120px;
+    flex-shrink: 0;
+}
 
 .taste-item {
     background:#FFF;
 }
 
-.taste-img {}
+.taste-img {
+    padding-bottom: 32px;
+}
 
 .taste-subtitle {
     color:#2E2F42;
@@ -189,6 +246,7 @@ address{
     font-weight:500;
     line-height:1.2;
     letter-spacing:0.02em;
+    padding-bottom: 8px;
 }
 
 .taste-item-text {
@@ -198,6 +256,7 @@ address{
     font-weight:400;
     line-height:1.5;
     letter-spacing:0.02em;
+    padding-bottom: 32px;
 }
 
 /*!------------------------------------------*/
@@ -214,11 +273,19 @@ address{
     line-height:1.11;
     letter-spacing:0.02em;
     text-transform:capitalize;
+    margin-top: 120px;
+    margin-bottom: 72px;
 }
 
-.made-list {}
+.made-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 120px;
+}
 
-.made-item {}
+.made-item {
+}
 
 .made-subtitle {
     color: #2E2F42;
