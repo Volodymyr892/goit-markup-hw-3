@@ -174,7 +174,9 @@ address{
 /*!------------------------------------------*/
 
 /*?---------------FEATURES-------------------*/
-.features {}
+.features {
+    padding: 120px 0
+}
 
 .secondary-title {}
 
@@ -329,7 +331,7 @@ address{
 /*?-----------------FOORET-------------------*/
 .footer {
     background:  #2E2F42;
-    padding-top: 100px;
+    padding-top: 100px 0;
 }
 
 .footer-link {
@@ -342,6 +344,8 @@ address{
     text-transform:uppercase;
     margin-left: 156px;
     margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-logo-part{
     color:#f4f4fd;
