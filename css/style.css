@@ -19,7 +19,7 @@ ol, ul {
     padding-left: 0;
 }
 img {
-    display:block;
+    display: block;
 }
 
 button{
@@ -46,7 +46,6 @@ address{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    margin-bottom: 8px
 }
 
 
@@ -204,7 +203,7 @@ address{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .features-item-text {
@@ -279,7 +278,11 @@ address{
 
 /*?-------------------MADE-------------------*/
 
-.made {}
+.made {
+    padding-top: 120px;
+        padding-bottom: 120px;
+        
+}
 
 .made-title {
     color:  #2E2F42;
@@ -320,7 +323,7 @@ address{
     font-weight:500;
     line-height:1.2;
     letter-spacing:0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .made-item-text {
