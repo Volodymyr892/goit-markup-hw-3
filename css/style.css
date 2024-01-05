@@ -46,6 +46,7 @@ address{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px
 }
 
 
@@ -166,8 +167,6 @@ address{
     min-width: 169px;
     height: 56px;
 
-
-    display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
@@ -336,7 +335,7 @@ address{
 /*?-----------------FOORET-------------------*/
 .footer {
     background:  #2E2F42;
-    padding-top: 100px 0;
+    padding: 100px 0;
 }
 
 .footer-link {
